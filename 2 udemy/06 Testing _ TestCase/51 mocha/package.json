@@ -1,0 +1,15 @@
+{
+  "name": "gh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": { 
+    "mocha": "^5.2.0"
+  }
+}
