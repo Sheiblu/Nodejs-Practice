@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Contact Page </title>
+
+    <style type="text/css">
+    	body {
+    		background-image: url(assets/images/contact.jpg);
+            background-size: cover;
+    	}
+    </style>
+    
+</head>
+<body>
+
+        <% include partials/menuber1.ejs %>
+    
+	<h1 style="background-color: white; text-align: center">Contact Us</h1>
+
+
+        <pre> 
+            Hello <%= qs.name %>,
+            
+            Welcome to Contact Page . Plz Submit 
+    
+            Thanks
+
+            <%= qs.age %>
+        </pre>
+
+
+        <form id="contact-from" method="POST" action="/contact-success" style="padding-left: 10%">
+           
+            <label for="who">Who do you want ?</label>  <br>
+            <input type="text" name="who" value=""> <br>
+
+            <label for="depertment"> Depertment ?</label>  <br>
+            <input type="text" name="depertment" value="">  <br> <br>
+
+            <input type="submit" value="submit">  <br>
+        
+        </form>
+
+
+
+</body>
+</html>

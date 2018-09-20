@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>About Title</title>
+
+    <style type="text/css">
+    	body {
+    		background-image: url(image.jpg);
+    	}
+    </style>
+    
+</head>
+<body>
+
+
+    <h1>Name</h1>
+    <p><%= name %></p>
+
+    
+    <h1>Subject</h1>
+    
+    <ul>
+            <% subjects.forEach(function(item){ %>
+                    <li> <%= item %> </li>
+
+             <% }) ;   %>
+
+    </ul>
+
+
+
+    
+
+</body>
+</html>
